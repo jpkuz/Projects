@@ -188,6 +188,7 @@ int *search(struct Gameboard *gb, int p, int i) {
 
 }
 
+
 int getCompMove(struct Gameboard *gb, int p) {
     int *m;
     m=search(gb, p, 0);
